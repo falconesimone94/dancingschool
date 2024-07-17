@@ -1,0 +1,45 @@
+Analisi del Codice HTML
+Il codice HTML segue una struttura logica e ben organizzata con sezioni chiave per header, main, e footer. Di seguito sono riportati i punti principali:
+
+Head
+Meta Tag e Collegamenti: Il head include meta tag per il charset e la viewport, un collegamento al file CSS esterno e font Google.
+Titolo: Il titolo della pagina è "Dancing School".
+Corpo (body)
+Login Section: Contiene un messaggio di benvenuto con link per accedere o registrarsi.
+Header: Contiene il logo e un menu di navigazione con link alle sezioni principali del sito (HOME, SHOP, SCUOLA, LEZIONI, CONTATTI).
+Main Content: Diviso in diverse sezioni e articoli con contenuti specifici:
+Hero Section: Un'immagine di sfondo con testo sovrapposto.
+Promo Section: Promozioni delle lezioni di danza.
+International Event Section: Informazioni su un evento internazionale.
+Festival Section: Dettagli su un festival di danza.
+Opening Section: Informazioni sull'apertura della scuola.
+Dance Lessons Section: Informazioni sulle lezioni di danza aperte al pubblico.
+Image Section: Promozione 2x1 con immagine.
+Footer: Contiene informazioni di contatto e link ai social media.
+Analisi del Codice CSS
+Il codice CSS utilizza vari stili per migliorare l'aspetto e la funzionalità del sito. Di seguito sono riportati i punti principali:
+
+Stili Generali
+Reset CSS: Utilizza * per azzerare i margini, padding e box-sizing.
+Font: Imposta "Playwrite NG Modern" come font principale del corpo.
+Sezioni Specifiche
+Login Section: Background color viola scuro, testo bianco, link senza sottolineatura.
+Logo: Testo colorato in viola scuro, dimensione del font maggiore, margini e cursor pointer.
+Menu di Navigazione: Elementi del menu disposti in fila, senza puntini, con spazio tra gli elementi.
+Header: Utilizza flexbox per disporre gli elementi con spazio tra loro e allineamento centrale.
+Hero Section: Sfondo con immagine e gradiente, testo posizionato assolutamente.
+Promo Section: Background color viola chiaro, testo bianco e pulsante info stilizzato.
+International Event Section: Background con immagine e gradiente, testo posizionato a destra.
+Festival Section: Background con immagine e gradiente, testo posizionato a sinistra.
+Opening Section: Background viola chiaro, testo viola scuro e centrato.
+Dance Lessons Section: Background con immagine e gradiente, testo posizionato a destra.
+Image Section: Layout flex per l'immagine e il testo promozionale.
+Footer
+Informazioni di Contatto: Testo bianco, background color viola scuro, layout flex per organizzare il contenuto.
+Social Media: Icone disposte in fila con margini.
+Media Queries
+Il CSS include diverse media queries per rendere il sito responsive:
+
+Max-width 1200px: Modifiche per tablet grandi.
+Max-width 768px: Modifiche per tablet piccoli.
+Max-width 480px: Modifiche per smartphone.
